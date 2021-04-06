@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+	<title>O'kc'moche - Contact</title>
+</head>
+
+<body>
+	<div class="jumbotron text-center bg-dark" style="margin-bottom:0">
+		<img src="Images/logo.png" alt="" width="300" class="logo"/>
+ </div>
+
+ <nav class="navbar navbar-expand-sm navbar-dark bg-secondary justify-content-center">
+		<ul class="navbar-nav">
+		<li class="nav-item">
+		<a class="nav-link" href="Accueil.html">Accueil</a>
+		</li>
+		<li class="nav-item">
+		<a class="nav-link" href="Voitures.html">Nos Voitures</a>
+		</li>
+		<li class="nav-item">
+		<a class="nav-link" href="Comparatif.html">Comparatif</a>
+		</li>
+		<li class="nav-item">
+		<a class="nav-link active" href="Contact.html">Contact</a>
+		</li>
+		</ul>
+	 </nav>
+
+ <form method="post " action="#" class="ncontact">
+		<div>
+			<h2 class="text-center text-primary"> Prendre contact avec nous </h2>
+			
+			<div class="text-center">
+			  <input type="radio" id="madame" name="sexe" value="madame"checked>
+			  <label for="huey">Madame</label>
+			  <input type="radio" id="monsieur" name="sexe" value="monsieur">
+			  <label for="dewey">Monsieur</label>
+			  <input type="radio" id="autre" name="sexe" value="autre">
+			  <label for="louie">Autre</label>
+			</div>
+			</br>
+			<div class="text-center text-danger">
+				<label for="nom">Nom :</label>
+				<input type="text" id="nom" name="nom"  size="15">
+			</div>
+			</br>
+			<div class="text-center text-danger">
+				<label for="prenom">Prénom :</label>
+				<input type="text" id="prenom" name="prenom"  size="15">
+			</div>
+			</br></br>
+			<div class="text-center text-danger">
+				<label for="phone">Numéro de téléphone</label>
+				<input type="text" id="phone" name="phone">
+			</div>
+			</br>
+			<div class="text-center text-danger">
+				<label for="voitureselect">Vous êtes intéressé par :</label>
+					<select name="voiture" id="voitureselect">
+						<option value="multiplat">Fiat Multiplat</option>
+						<option value="testarossa">Ferrari Testarossa</option>
+						<option value="picasso">Citroën Picasso</option>
+						<option value="tesla">Tesla Cybertruck</option>
+						<option value="cube">Nissan Cube</option>
+						<option value="non">Je n'ai pas encore choisi de voiture</option>
+					</select>
+			</div>
+			</br>
+			<div class="text-center text-danger">
+			<label for="message">Votre message :</label>
+			</div>
+			<div class="text-center text-danger">
+				<textarea id="message" name="message"
+						  rows="5" cols="33">
+				</textarea>
+			</div>
+			</br>
+			<div class="button text-center text-danger">
+				<button type="submit">Envoyer</button>
+			</div>
+		</div>
+	</form>
+
+	<form method="post " action="#2" class="rdv">
+	
+	<div class="text-center text-danger">
+		<p class="">Prendre un rendez-vous avec nous</p>		
+		
+			<div class="text-center text-danger">
+				<label for="nom2">Nom :</label>
+				<input type="text" id="nom2" name="nom2"  size="15">
+				
+				<label for="prenom2">Prénom :</label>
+				<input type="text" id="prenom2" name="prenom2"  size="15">
+			</div>
+			</br>
+			<div class="text-center text-danger">
+				<label for="phone2">Numéro de téléphone</label>
+				<input type="text" id="phone2" name="phone2">
+			</div>
+			</br>
+			<div class="text-center text-danger">
+				<label for="date">Demander un rendez-vous le :</label>
+				<input type="date" id="date" name="date">
+			</div>
+			</br>
+			<div class="text-center text-danger">
+				<button type="submit">Faire la demande</button>
+			</div>
+		</div>
+	</form>
+
+ <div class="jumbotron text-center bg-dark text-white" style="margin-bottom:0%">
+ <div class="row">
+        <p class="col-sm">Tel : 04.22.52.10.10</p>
+        <p class="col-sm">Horaires d'ouverture :</p>
+        <p class="col-sm">Où nous trouver :</p>
+    </div>
+    <div class="row">
+        <p class="col-sm">Email : okc@cmoche.com</p>
+        <p class="col-sm">Du lundi au vendredi de 13h à 16h</p>
+        <p class="col-sm">48 rue Solférino, Lille 59000</p>
+    </div>
+    <div class="row">
+       <p class="col-sm"></p>
+       <p class="col-sm">Le samedi de 14h à 15h</p>
+       <p class="col-sm"></p>
+	</div>
+</div>
+</body>
+</html>

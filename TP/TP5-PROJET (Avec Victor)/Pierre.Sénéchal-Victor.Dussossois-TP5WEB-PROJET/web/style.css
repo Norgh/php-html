@@ -1,0 +1,135 @@
+body{
+	background: radial-gradient(ellipse at center, #2E2E2E 0%, #000000 100%);
+	display:grid;
+	grid-gap:15px;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1/2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.header {
+	text-align:center;
+	grid-column: 1 / 5;
+	grid-row: 1;
+	
+}
+.menu{
+	display:table;
+	margin:auto; 
+	padding:0;
+	margin-bottom:1%;
+	grid-column: 1 / 5; 
+	grid-row: 2;
+	
+}
+.menu ul {
+	border-radius:4px;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	font-size:100%;
+}
+.menu li a {
+	background-color: #A4A4A4;
+	display: block;
+	color: white;
+	padding: 8px 50px;
+	text-decoration: none;
+}
+.menu li a:hover {
+	background-color: #339ad5;
+	color: white;
+}
+@media only screen and (min-width:750px){
+.menu li {
+	float:left;
+	text-align: center;
+}
+}
+@media only screen and (max-width:750px){
+.menu li {
+	text-align: center;	
+}
+}
+
+.qui{
+	text-align:center;
+	color:#339ad5;
+	grid-column: 2;
+	grid-row: 3;
+}
+.rqui{
+	text-align:center;
+	color:white;
+	margin-bottom:4%;
+	grid-column: 2;
+	grid-row: 4;
+}
+.confiance{
+	text-align:center;
+	color:#339ad5;
+	grid-column: 2;
+	grid-row: 5	;
+}
+.rconfiance{
+	text-align:center;
+	color:white;
+	grid-column: 2;
+	grid-row: 6	;
+}
+.imgconfiance{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	width:50%;
+	grid-column: 2;
+	grid-row: 7;
+}
+
+.footer{
+	grid-column: 1 / 5;
+	grid-row: 8;
+	margin-top:1%;
+	background-color:#424242;
+	color:white;
+	font-size:75%;
+	text-align:center;
+	line-height:1%;
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+}
+@media only screen and (max-width:600px){
+.tel,.mail,.horaire,.horaire1,.horaire2,.trouve,.trouve1{
+	font-size:60%;
+}
+	
+}
+.tel{
+	grid-column:1;
+	grid-row:1;
+}
+.mail{
+	grid-column:1;
+	grid-row:2;
+}
+.horaire{
+	grid-column:2;
+	grid-row:1;
+}
+.horaire1{
+	grid-column:2;
+	grid-row:2;
+}
+.horaire2{
+	grid-column:2;
+	grid-row:3;
+}
+.trouve{
+	grid-column:3;
+	grid-row:1;
+}
+.trouve1{
+	grid-column:3;
+	grid-row:2;
+}

@@ -1,0 +1,186 @@
+body {
+	background: radial-gradient(ellipse at center, #2E2E2E 0%, #000000 100%);
+	display:grid;
+	color: #000000;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1/2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-gap:15px;
+}
+
+.header {
+	text-align:center;
+	grid-column: 1 / 5;
+	grid-row: 1;
+	
+}
+
+.menu{
+	grid-column: 1/5;
+	grid-row: 2;
+	display:table;
+	margin:auto;
+	padding:0;
+}
+.menu ul {
+	border-radius:4px;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	font-size:100%;
+
+}
+.menu li a {
+	background-color: #A4A4A4;
+	display: block;
+	color: white;
+	padding: 8px 50px;
+	text-decoration: none;
+}
+.menu li a:hover {
+	background-color: #339ad5;
+	color: white;
+}
+@media only screen and (min-width:750px){
+.menu li {
+	float:left;
+	text-align: center;
+}
+}
+@media only screen and (max-width:750px){
+.menu li {
+	text-align: center;	
+}
+}
+
+strong{
+	color:#339ad5;
+}
+.imgnissan {
+	grid-column: 1/3;
+	grid-row: 3;
+	width:60%;
+	padding-top:10%;
+	padding-left:40%;
+}
+
+.imgcitroen {
+	grid-column: 1/3;
+	grid-row: 4;
+	width:60%;
+	padding-left:40%;
+	padding-top:3%;
+}
+
+.imgferrari {
+	grid-column: 1/3;
+	grid-row: 5;
+	width:60%;
+	padding-top:8%;
+	padding-left:40%;
+}
+
+.imgmultiplat {
+	grid-column: 1/3;
+	grid-row: 6;
+	width:60%;
+	padding-top:3%;
+	padding-left:40%;
+}
+
+.imgtesla {
+	grid-column: 1/3;
+	grid-row: 7;
+	width:60%;
+	padding-top:5%;
+	padding-left:40%;
+	padding-bottom:5%;
+}
+
+.txtnissan {
+	grid-column:3/5;
+	grid-row:3;
+	padding-right:30%;
+	padding-top:10%;
+	color:white;
+}
+
+.txtcitroen {
+	grid-column:3/5;
+	grid-row: 4;
+	padding-top:2%;
+	padding-right:30%;
+	color:white;
+}
+
+.txtferrari {
+	grid-column:3/5;
+	grid-row: 5;
+	padding-top:6%;
+	padding-right:30%;
+	color:white;
+}
+
+.txtmultiplat {
+	grid-column:3/5;
+	grid-row: 6;
+	padding-top:2%;
+	padding-right:30%;
+	color:white;
+}
+
+.txttesla {
+	grid-column: 3/5;
+	grid-row: 7;
+	padding-top:4%;
+	padding-right:30%;
+	color:white;
+	padding-bottom:5%;
+}
+
+
+.footer{
+	grid-column: 1/5;
+	grid-row: 9;
+	background-color:#424242;
+	color:white;
+	font-size:75%;
+	text-align:center;
+	line-height:1%;
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+}
+@media only screen and (max-width:600px){
+.tel,.mail,.horaire,.horaire1,.horaire2,.trouve,.trouve1{
+	font-size:60%;
+}
+}
+.tel{
+	grid-column:1;
+	grid-row:1;
+}
+.mail{
+	grid-column:1;
+	grid-row:2;
+}
+.horaire{
+	grid-column:2;
+	grid-row:1;
+}
+.horaire1{
+	grid-column:2;
+	grid-row:2;
+}
+.horaire2{
+	grid-column:2;
+	grid-row:3;
+}
+.trouve{
+	grid-column:3;
+	grid-row:1;
+}
+.trouve1{
+	grid-column:3;
+	grid-row:2;
+}

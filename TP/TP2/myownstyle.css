@@ -1,0 +1,32 @@
+h1 {font-weight: bold;
+	font-style: italic;
+	color: blue;
+	background-color: yellow;}
+h2{border: 3px dotted red;
+	font-family: "Trebuchet MS";
+	text-align: center;
+	margin: 20px;
+	padding: 10px;}
+	
+.p1 {color:red; font-family:verdana; font-size:.6em;}
+.p2 p:first-letter {font-weight: bold; color: blue;}
+.p2 p:first-line {font-style:italic;}
+.p3 {font-family: serif; font-size:18pt; line-height:30pt;}
+.lien1 a:link {color:blue; text-decoration:none;}
+.lien1 a:hover {font-size:20pt; color:green;text-transform:uppercase;}
+.lien2 a:link {text-decoration:none; color:black;}
+.lien2 a:hover {font-weight:bold; background-color:yellow;}
+.lien2 a:visited {font-weight:bold; text-decoration:none; background-color:silver;}
+
+p.test::after {
+	content: " - Quelque chose ajouté à tous les paragraphes de classe test";
+	color:blue;
+	}
+div[class*="test"] { background: silver; }
+
+
+
+
+
+
+

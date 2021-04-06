@@ -1,0 +1,23 @@
+.flottantegauche,.flottantedroite 
+{
+margin: 2px;
+width: 100px;
+text-align: center;
+}
+
+.flottantegauche
+{
+background:yellow;	
+float: left
+}
+
+.flottantedroite
+{
+background: #ADDFDE;
+float: right;
+}
+
+.plusflottant
+{
+clear: both;
+}

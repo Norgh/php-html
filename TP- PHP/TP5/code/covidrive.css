@@ -1,0 +1,107 @@
+body{
+	background-image: url(back.jpg);
+	background-repeat: no-repeat;
+}
+.menu{
+	display:table;
+	margin:auto; 
+	padding:0;
+	margin-bottom:1%;
+}
+
+.menu ul {
+	border-radius:4px;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	font-size:100%;
+}
+
+.menu li {
+	float:left;
+	text-align: center;
+}
+
+.menu li a {
+	background-color: #A4A4A4;
+	display: block;
+	color: white;
+	padding: 8px 50px;
+	text-decoration: none;
+}
+
+.menu li a:hover {
+	background-color: #339ad5;
+	color: white;
+}
+
+#logoentete{
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+
+#bouton{
+	background-color:#A4A4A4;
+	border-radius:4px;
+	color:white;
+}
+#bouton:hover{
+	background-color:#339ad5;
+	border-radius:4px;
+	color:black;
+}
+
+.foot{
+	color:black;
+	margin-left:37.5%;
+	position:relative;
+	bottom:0px;
+}
+
+#logobas{
+	position:relative;
+	bottom:0px;
+	float:right;
+}
+
+.inscription{
+	color:rgb(7, 80, 208);
+}
+
+.linkinscription{
+	color:red;
+}
+
+.linkinscription:hover{
+	color:rgb(255, 102, 0);
+}
+
+.log_menu{
+	text-align:center;
+	margin-top:13.5%;
+	color:black;
+}
+
+
+.infosperso{
+	background:radial-gradient(ellipse at right,#000000 0%,#ffffff 5%, #171717 20%, #2e2e2e 40%, #ffffff 60%, #a0a0a0 80%, transparent);
+}
+
+.insc{
+	background:radial-gradient(ellipse at right,#000000 0%,#ffffff 5%, #171717 20%, #2e2e2e 40%, #ffffff 60%, #a0a0a0 80%, transparent);
+}
+
+.covidinf{
+text-align:center;
+}
+
+.covidlien{
+	color:blue;
+}
+
+.covidlien:hover{
+color:red;
+}
+

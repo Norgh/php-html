@@ -1,0 +1,164 @@
+body{
+	background: radial-gradient(ellipse at center, #2E2E2E 0%, #000000 100%);
+	display:grid;
+	grid-gap:15px;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1/2fr 1fr 1fr 1fr 1fr;
+	color:white;
+}
+
+.header {
+	text-align:center;
+	grid-column: 1 / 5;
+	grid-row: 1;
+}
+
+.menu{
+	grid-column: 1/5;
+	grid-row: 2;
+	display:table; 
+	margin:auto; 
+	padding:0;	
+}
+.menu ul {
+	border-radius:4px;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	font-size:100%;
+}
+.menu li a {
+	background-color: #A4A4A4;
+	display: block;
+	color: white;
+	padding: 8px 50px;
+	text-decoration: none;
+}
+.menu li a:hover {
+	background-color: #339ad5;
+	color: white;
+}
+@media only screen and (min-width:750px){
+.menu li {
+	float:left;
+	text-align: center;
+}
+
+.ncontact{
+	text-align:center;
+	grid-column: 1/3;
+	grid-row: 3;
+}
+.tform{
+	font-size:170%;
+}
+
+.rdv{
+	padding-top:10%;
+	text-align:center;
+	grid-column: 3/5;
+	grid-row: 3;
+}
+}
+@media only screen and (max-width:750px){
+.menu li {
+	text-align: center;	
+}
+
+.ncontact{
+	text-align:center;
+	grid-column: 1/5;
+	grid-row: 3;
+}
+.tform{
+	font-size:170%;
+}
+
+.rdv{
+	padding-top:10%;
+	text-align:center;
+	grid-column: 1/5;
+	grid-row: 4;
+}
+}
+
+#phone,#nom,#prenom,#voitureselect,#message,#nom2,#prenom2,#phone2,#date{
+	background-color:#585858;
+	color:white;
+	border: 0.5px solid white;
+	border-radius:5px;
+}
+#phone:focus,#nom:focus,#prenom:focus,#voitureselect:focus,#message:focus,#nom2:focus,#prenom2:focus,#phone2:focus,#date:focus{
+	border-color:#339ad5;
+	color:#339ad5;
+}
+form{
+	padding-bottom:5%;
+}
+button{
+	background-color: white;
+	border: none;
+	color: black;
+	padding: 1% 3%;
+	text-align: center;
+	display: inline-block;
+	font-size: 90%;
+  	border-radius:5px;
+}
+button:hover{
+	background-color: #339ad5;
+	border: none;
+	color: white;
+	padding: 1% 3%;
+	text-align: center;
+	display: inline-block;
+	font-size: 90%;
+  	border-radius:5px;
+}
+.footer{
+	grid-column: 1/5;
+	grid-row: 5;
+	background-color:#424242;
+	color:white;
+	font-size:75%;
+	text-align:center;
+	line-height:1%;	
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+}
+@media only screen and (max-width:600px){
+.tel,.mail,.horaire,.horaire1,.horaire2,.trouve,.trouve1{
+	font-size:60%;
+}
+	
+}
+.tel{
+	grid-column:1;
+	grid-row:1;
+}
+.mail{
+	grid-column:1;
+	grid-row:2;
+}
+.horaire{
+	grid-column:2;
+	grid-row:1;
+}
+.horaire1{
+	grid-column:2;
+	grid-row:2;
+}
+.horaire2{
+	grid-column:2;
+	grid-row:3;
+}
+.trouve{
+	grid-column:3;
+	grid-row:1;
+}
+.trouve1{
+	grid-column:3;
+	grid-row:2;
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf 8">
+	<meta name="viewport" content="width=device width, initial scale=1.0">
+	<link rel="stylesheet" href="stylecontact.css">
+	<link href="Images/voiture.png" rel="shortcut icon" />
+	<title>O'kc'moche - Nous contacter</title>
+</head>
+
+<body>
+
+	<div class="header">
+		<img src="Images/logo.png" alt="" width="300" class="logo"/>
+	</div>
+	<div class="menu">
+		<nav>
+		<ul>
+			<li><a href="accueil.html"><i class="accueil" aria-hidden="true"></i>Accueil</a></li>
+			<li><a href="vehicule.html"><i class="vehicule" aria-hidden="true"></i>Nos véhicules</a></li>
+			<li><a href="comparatif.html"><i class="comparatif" aria-hidden="true"></i>Comparatif</a></li>
+			<li><a href="contact.html"><i class="contact2" aria-hidden="true"></i>Nous contacter</a></li>
+		</ul>
+		</nav>
+	</div>
+	
+	<form method="post " action="#" class="ncontact">
+		<div>
+			<p class="tform"> Prendre contact avec nous </p>
+			
+			<div>
+			  <input type="radio" id="madame" name="sexe" value="madame"checked>
+			  <label for="huey">Madame</label>
+			  <input type="radio" id="monsieur" name="sexe" value="monsieur">
+			  <label for="dewey">Monsieur</label>
+			  <input type="radio" id="autre" name="sexe" value="autre">
+			  <label for="louie">Autre</label>
+			</div>
+			</br>
+			<div>
+				<label for="nom">Nom :</label>
+				<input type="text" id="nom" name="nom"  size="15">
+			</div>
+			</br>
+			</div>
+				<label for="prenom">Prénom :</label>
+				<input type="text" id="prenom" name="prenom"  size="15">
+			</div>
+			</br></br>
+			<div>
+				<label for="phone">Numéro de téléphone</label>
+				<input type="text" id="phone" name="phone">
+			</div>
+			</br>
+			<div>
+				<label for="voitureselect">Vous êtes intéressé par :</label>
+					<select name="voiture" id="voitureselect">
+						<option value="multiplat">Fiat Multiplat</option>
+						<option value="testarossa">Ferrari Testarossa</option>
+						<option value="picasso">Citroën Picasso</option>
+						<option value="tesla">Tesla Cybertruck</option>
+						<option value="cube">Nissan Cube</option>
+						<option value="non">Je n'ai pas encore choisi de voiture</option>
+					</select>
+			</div>
+			</br>
+			<label for="message">Votre message :</label>
+			<div>
+				<textarea id="message" name="message"
+						  rows="5" cols="33">
+				</textarea>
+			</div>
+			</br>
+			<div class="button">
+				<button type="submit">Envoyer</button>
+			</div>
+		</div>
+	</form>
+
+	<form method="post " action="#2" class="rdv">
+	
+	<div>
+		<p class="tform">Prendre un rendez-vous avec nous</p>		
+		
+			<div>
+				<label for="nom2">Nom :</label>
+				<input type="text" id="nom2" name="nom2"  size="15">
+				
+				<label for="prenom2">Prénom :</label>
+				<input type="text" id="prenom2" name="prenom2"  size="15">
+			</div>
+			</br>
+			<div>
+				<label for="phone2">Numéro de téléphone</label>
+				<input type="text" id="phone2" name="phone2">
+			</div>
+			</br>
+			<div>
+				<label for="date">Demander un rendez-vous le :</label>
+				<input type="date" id="date" name="date">
+			</div>
+			</br>
+			<div class="button">
+				<button type="submit">Faire la demande</button>
+			</div>
+		</div>
+	</form>
+	
+	<div class="footer">
+		<p class="tel">Tel : 04.22.52.10.10</p>
+		<p class="mail">Email : okc@cmoche.com</p>
+		<p class="horaire">Horaires d'ouverture :</p>
+		<p class="horaire1">Du lundi au vendredi de 13h à 16h</p>
+		<p class="horaire2">Le samedi de 14h à 15h</p>
+		<p class="trouve">Où nous trouver :</p>
+		<p class="trouve1">48 rue Solférino, Lille 59000</p>
+	</div>
+
+
+</body>
+</html>

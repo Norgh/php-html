@@ -1,0 +1,18 @@
+body {font-family: verdana;}
+
+p.exemple {
+background-image: url(ex.png);
+background-repeat: no-repeat;
+background-position: left-center;
+background-position: 25px;
+padding: 25px;
+padding-left: 110px;}
+
+h1 {
+line-height: 65px;
+background-image: url(linux.png);
+background-repeat: no-repeat;
+background-color: #FFC;
+background-position: left-center;
+background-position: 20px;
+padding-left: 100px;}

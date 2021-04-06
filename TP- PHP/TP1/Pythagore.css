@@ -1,0 +1,10 @@
+table{ 
+    margin:auto;
+    border:solid 1px red;
+    width:50%;
+    text-align:right;
+}
+
+caption{
+color:red;
+}

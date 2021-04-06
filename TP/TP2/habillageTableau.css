@@ -1,0 +1,29 @@
+table {
+
+margin-top:10%;
+margin-left:25%;
+
+width:800px;
+heigh:150px;
+border-collapse:collapse;
+background-color:#EFF6FF;
+border:3px #6495ed solid;
+}
+
+td { 
+width-left:300px;
+background-color:#FFF;
+border:solid #6495ed 1px;
+font-family:sans-serif;
+}
+
+th {
+border:solid #6495ed 1px;
+font-family:sans-serif;
+
+}
+
+caption {center;
+padding-bottom:8px;
+ font-family:"Broadway";
+}

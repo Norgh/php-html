@@ -1,0 +1,12 @@
+h1 {text-align: center; }
+p {text-align: center; color:blue;}
+p:hover {color:#4080FF;}
+div {
+	width=50px;
+	background:silver;
+	margin-left:500px;
+	margin-right:500px;
+	border-width:3px;
+	border-color:red;
+	border-style:solid;
+	}
